@@ -13,6 +13,7 @@
 		DC291F4D293D51E0004A78D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC291F4B293D51E0004A78D4 /* Main.storyboard */; };
 		DC291F4F293D51E1004A78D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC291F4E293D51E1004A78D4 /* Assets.xcassets */; };
 		DC291F52293D51E1004A78D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC291F50293D51E1004A78D4 /* LaunchScreen.storyboard */; };
+		DC291F5A293D549F004A78D4 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = DC291F59293D549F004A78D4 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DC291F4E293D51E1004A78D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC291F51293D51E1004A78D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC291F53293D51E1004A78D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC291F59293D549F004A78D4 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = MobileNetV2.mlmodel; path = ../../../../Downloads/MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DC291F4E293D51E1004A78D4 /* Assets.xcassets */,
 				DC291F50293D51E1004A78D4 /* LaunchScreen.storyboard */,
 				DC291F53293D51E1004A78D4 /* Info.plist */,
+				DC291F59293D549F004A78D4 /* MobileNetV2.mlmodel */,
 			);
 			path = ImageRecognition;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				DC291F4A293D51E0004A78D4 /* ViewController.swift in Sources */,
 				DC291F46293D51E0004A78D4 /* AppDelegate.swift in Sources */,
+				DC291F5A293D549F004A78D4 /* MobileNetV2.mlmodel in Sources */,
 				DC291F48293D51E0004A78D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
